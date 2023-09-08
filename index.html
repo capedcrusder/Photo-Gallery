@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Photo Gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Photo Gallery</h1>
+        <div class="full-img" id="fullImgBox">
+            <img src="Images/img11.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+            <a class="prev" onclick="prevImg()">&#10094;</a>
+            <a class="next" onclick="nextImg()">&#10095;</a>
+     </div>
+    <div class="gallery">
+        
+        <img src="Images/img11.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img10.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img14.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img12.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img3.jpg"  onclick="openFullImg(this.src)">
+        <img src="Images/img13.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img2.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img16.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img8.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img9.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img4.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img15.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/img5.jpg" onclick="openFullImg(this.src)">
+        <!-- <img src="Images/img6.jpg" onclick="openFullImg(this.src)"> -->
+        <!-- <img src="Images/img7.jpg" onclick="openFullImg(this.src)"> -->
+      </div>
+<script src="script.js"></script>
+</body>
+</html>
+  
